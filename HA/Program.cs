@@ -22,10 +22,10 @@ namespace HA
 
             // Specify the base name, display name and description for the service, as it is registered in the services control manager.
             // This information is visible through the Windows Service Monitor
-            const string serviceName = "HA";
-            const string displayName = "HA Service";
-            const string description = "A .NET Windows Service.";
-
+            const string serviceName = "WinHA";
+            const string displayName = "WinHA Service";
+            const string description = "HighAvailability Service for Windows!";
+            
             HostFactory.Run(x =>
             {
 
