@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HA
+namespace WinHA
 {
     class IocModule : Ninject.Modules.NinjectModule
     {

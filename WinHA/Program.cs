@@ -5,11 +5,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 using Topshelf;
 using Topshelf.Common.Logging;
 using Topshelf.Ninject;
 
-namespace HA
+namespace WinHA
 {
     class Program
     {
@@ -54,7 +55,7 @@ namespace HA
                 //=> Service Identity
 
                 x.RunAsLocalSystem();
-
+                string a = ConfigurationManager.AppSettings[""];
                 //x.RunAs("username", "password"); // predefined user
                 //x.RunAsPrompt(); // when service is installed, the installer will prompt for a username and password
                 //x.RunAsNetworkService(); // runs as the NETWORK_SERVICE built-in account

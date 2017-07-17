@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Topshelf;
 
-namespace HA.Service
+namespace WinHA.Service
 {
     class WinService
     {
