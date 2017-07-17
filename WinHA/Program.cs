@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Timers;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,7 +56,16 @@ namespace WinHA
                 //=> Service Identity
 
                 x.RunAsLocalSystem();
-                string a = ConfigurationManager.AppSettings[""];
+                //string a = ConfigurationManager.AppSettings[""];
+
+                //Timer t = new Timer(Convert.ToInt32(ConfigurationManager.AppSettings["lookuptime"]));
+                //t.Elapsed += new ElapsedEventHandler(HandleTimer);
+                //t.Elapsed += async (sender, e) => await HandleTimer();
+                //t.Start();
+                //t.Stop();
+
+                HandleTimer(null, null);
+
                 //x.RunAs("username", "password"); // predefined user
                 //x.RunAsPrompt(); // when service is installed, the installer will prompt for a username and password
                 //x.RunAsNetworkService(); // runs as the NETWORK_SERVICE built-in account
@@ -92,6 +102,32 @@ namespace WinHA
             });
 
 
+        }
+
+        private static void HandleTimer(object source, ElapsedEventArgs e)
+        {
+            foreach (string key in ConfigurationManager.AppSettings)
+            {
+                string val = ConfigurationManager.AppSettings[key];
+                if (key.StartsWith("IP_")) {
+                    string ip = val.Split(' ')[0];
+                    string subnet = val.Split(' ')[1];
+
+                    NetworkManagement nm = new NetworkManagement();
+
+                    try {
+                        if (!nm.ping(ip)) {
+                            Console.WriteLine("{0}_{1}", key, val);
+                            nm.setIP(ip, subnet);
+                        }
+                            
+                    } catch (System.Net.Sockets.SocketException ex) {
+                        nm.setIP(ip, subnet);
+
+                        Console.WriteLine(ex.ToString());
+                    }
+                }
+            }            
         }
     }
 }

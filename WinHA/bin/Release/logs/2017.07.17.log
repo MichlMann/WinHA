@@ -1,0 +1,186 @@
+2017-07-17 10:08:49,659 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 10:08:49,710 [8] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 10:08:49,718 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 10:08:49,785 [8] INFO  Topshelf.HostFactory [(null)] - Configuration Result:
+[Success] Name WinHA
+[Success] DisplayName WinHA Service
+[Success] Description HighAvailability Service for Windows!
+[Success] ServiceName WinHA
+2017-07-17 10:08:49,790 [8] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl [(null)] - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-07-17 10:08:50,006 [8] DEBUG Topshelf.Builders.RunBuilder [(null)] - Running as a console application, creating the console host.
+2017-07-17 10:08:50,012 [8] DEBUG Topshelf.Hosts.ConsoleRunHost [(null)] - Starting up as a console application
+2017-07-17 10:08:50,028 [8] INFO  WinHA.Service.WinService [(null)] - WinService Start command received.
+2017-07-17 10:08:50,030 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service is now running, press Control+C to exit.
+2017-07-17 10:10:11,376 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 10:10:11,469 [8] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 10:10:11,478 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 10:10:11,564 [8] INFO  Topshelf.HostFactory [(null)] - Configuration Result:
+[Success] Name WinHA
+[Success] DisplayName WinHA Service
+[Success] Description HighAvailability Service for Windows!
+[Success] ServiceName WinHA
+2017-07-17 10:10:11,568 [8] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl [(null)] - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-07-17 10:10:11,768 [8] DEBUG Topshelf.Builders.RunBuilder [(null)] - Running as a console application, creating the console host.
+2017-07-17 10:10:11,775 [8] DEBUG Topshelf.Hosts.ConsoleRunHost [(null)] - Starting up as a console application
+2017-07-17 10:10:11,777 [8] INFO  WinHA.Service.WinService [(null)] - WinService Start command received.
+2017-07-17 10:10:11,779 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service is now running, press Control+C to exit.
+2017-07-17 10:10:15,265 [12] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - Control+C detected, attempting to stop service.
+2017-07-17 10:10:15,271 [12] TRACE WinHA.Service.WinService [(null)] - WinService Stop command received.
+2017-07-17 10:10:15,274 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service has stopped.
+2017-07-17 10:10:58,255 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 10:10:58,296 [8] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 10:10:58,303 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:01:43,917 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 11:01:43,955 [8] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 11:01:43,962 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:22:53,821 [7] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 11:22:53,871 [7] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 11:22:53,879 [7] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:32:49,415 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 11:32:49,445 [8] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 11:32:49,452 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:32:49,508 [8] INFO  Topshelf.HostFactory [(null)] - Configuration Result:
+[Success] Name WinHA
+[Success] DisplayName WinHA Service
+[Success] Description HighAvailability Service for Windows!
+[Success] ServiceName WinHA
+2017-07-17 11:32:49,511 [8] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl [(null)] - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-07-17 11:32:49,651 [8] DEBUG Topshelf.Builders.RunBuilder [(null)] - Running as a console application, creating the console host.
+2017-07-17 11:32:49,656 [8] DEBUG Topshelf.Hosts.ConsoleRunHost [(null)] - Starting up as a console application
+2017-07-17 11:32:49,659 [8] INFO  WinHA.Service.WinService [(null)] - WinService Start command received.
+2017-07-17 11:32:49,660 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service is now running, press Control+C to exit.
+2017-07-17 11:32:55,633 [13] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 106
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:32:55,633 [12] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 106
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:32:55,690 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - Stopping the WinHA service
+2017-07-17 11:32:55,633 [14] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 106
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:32:55,722 [8] TRACE WinHA.Service.WinService [(null)] - WinService Stop command received.
+2017-07-17 11:32:55,727 [11] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 106
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:32:55,728 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service has stopped.
+2017-07-17 11:33:05,840 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 11:33:05,905 [8] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 11:33:05,913 [8] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:33:05,998 [8] INFO  Topshelf.HostFactory [(null)] - Configuration Result:
+[Success] Name WinHA
+[Success] DisplayName WinHA Service
+[Success] Description HighAvailability Service for Windows!
+[Success] ServiceName WinHA
+2017-07-17 11:33:06,002 [8] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl [(null)] - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-07-17 11:33:06,267 [8] DEBUG Topshelf.Builders.RunBuilder [(null)] - Running as a console application, creating the console host.
+2017-07-17 11:33:06,273 [8] DEBUG Topshelf.Hosts.ConsoleRunHost [(null)] - Starting up as a console application
+2017-07-17 11:33:06,277 [8] INFO  WinHA.Service.WinService [(null)] - WinService Start command received.
+2017-07-17 11:33:06,279 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service is now running, press Control+C to exit.
+2017-07-17 11:33:06,965 [11] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 106
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:33:06,973 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - Stopping the WinHA service
+2017-07-17 11:33:06,976 [8] TRACE WinHA.Service.WinService [(null)] - WinService Stop command received.
+2017-07-17 11:33:06,978 [8] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service has stopped.
+2017-07-17 11:33:36,596 [9] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 11:33:36,673 [9] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 11:33:36,680 [9] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:33:36,762 [9] INFO  Topshelf.HostFactory [(null)] - Configuration Result:
+[Success] Name WinHA
+[Success] DisplayName WinHA Service
+[Success] Description HighAvailability Service for Windows!
+[Success] ServiceName WinHA
+2017-07-17 11:33:36,766 [9] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl [(null)] - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-07-17 11:33:36,999 [9] DEBUG Topshelf.Builders.RunBuilder [(null)] - Running as a console application, creating the console host.
+2017-07-17 11:33:37,006 [9] DEBUG Topshelf.Hosts.ConsoleRunHost [(null)] - Starting up as a console application
+2017-07-17 11:33:37,025 [9] INFO  WinHA.Service.WinService [(null)] - WinService Start command received.
+2017-07-17 11:33:37,026 [9] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service is now running, press Control+C to exit.
+2017-07-17 11:33:37,762 [12] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 113
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:33:37,796 [9] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - Stopping the WinHA service
+2017-07-17 11:33:37,798 [9] TRACE WinHA.Service.WinService [(null)] - WinService Stop command received.
+2017-07-17 11:33:37,800 [9] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service has stopped.
+2017-07-17 11:36:35,716 [9] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Integration Started in host.
+2017-07-17 11:36:35,741 [9] DEBUG Topshelf.Ninject.HostConfiguratorExtensions [(null)] - Ninject kernel instantiated with 1 modules.
+2017-07-17 11:36:35,749 [9] INFO  Topshelf.Ninject.HostConfiguratorExtensions [(null)] - [Topshelf.Ninject] Service configured to construct using Ninject.
+2017-07-17 11:36:35,803 [9] INFO  Topshelf.HostFactory [(null)] - Configuration Result:
+[Success] Name WinHA
+[Success] DisplayName WinHA Service
+[Success] Description HighAvailability Service for Windows!
+[Success] ServiceName WinHA
+2017-07-17 11:36:35,806 [9] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl [(null)] - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-07-17 11:36:35,967 [9] DEBUG Topshelf.Builders.RunBuilder [(null)] - Running as a console application, creating the console host.
+2017-07-17 11:36:35,973 [9] DEBUG Topshelf.Hosts.ConsoleRunHost [(null)] - Starting up as a console application
+2017-07-17 11:36:35,975 [9] INFO  WinHA.Service.WinService [(null)] - WinService Start command received.
+2017-07-17 11:36:35,977 [9] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service is now running, press Control+C to exit.
+2017-07-17 11:36:36,786 [12] FATAL Topshelf.Hosts.ConsoleRunHost [(null)] - The service threw an unhandled exception
+System.NotImplementedException: The method or operation is not implemented.
+   at WinHA.Program.HandleTimer() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 113
+   at WinHA.Program.<>c.<<Main>b__0_7>d.MoveNext() in C:\Users\trunke\Documents\Visual Studio 2015\Projects\HA\WinHA\Program.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2017-07-17 11:36:36,796 [9] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - Stopping the WinHA service
+2017-07-17 11:36:36,798 [9] TRACE WinHA.Service.WinService [(null)] - WinService Stop command received.
+2017-07-17 11:36:36,800 [9] INFO  Topshelf.Hosts.ConsoleRunHost [(null)] - The WinHA service has stopped.
